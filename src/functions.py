@@ -55,3 +55,39 @@ def mil_filter(df, start_year=None, end_year=None):
     elif end_year and not start_year:
         return df[df['Year_Exposure'] <= end_year]
     return df
+
+
+"""
+
+
+data cleaning
+1 - Eliminated all duplicates
+2 - Eliminate useless columns
+    *Columns with all null values/ 88 values/ 99 values
+"""
+
+def clean(df):
+    """
+    Clean DataFrame of columns with all empty, null, N/A, or unknown values, and drops duplicate rows.
+
+    Args:
+        df (DataFrame): A DataFrame to be cleaned
+
+    Returns: A DataFrame with useful data.
+    """
+    no_dups = df.drop_duplicates(subset="Subject_ID")
+
+
+
+def unique_indicators(self):
+    data_processor.read_csv()
+    unique_indicators = self.data["Indicator Name"].unique()
+    for indicator in unique_indicators:
+        print(indicator)
+
+for column in signals.columns:
+if signals[column].isin(['', 'N/A']).all():
+    signals = signals.drop(column, axis=1)
+
+
+
