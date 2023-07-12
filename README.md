@@ -32,20 +32,39 @@ There is missing data under certain columns like loc_plot_state2 and plot_target
 The data has not been summarized.
 
 ### Potential Avenues of Inquiry  
+# MIDTERM
+What is the trend extremism since 2000?  
+Columns:  
+Subject_ID Year_Exposure (Groupby), Line Plot with scatter plot
 
 What are the top ideologies for extremist? NE-Y  
 Columns:    
-Radicalization Islamist, Far Right, Left, Single Issue
+Radicalization_Islamist, Far_Right, Far_Left, Single_Issue
 
 What are the top ideological subcategories for extremist? NE-Y  
 Columns:    
-Ideological Sub Category
+Ideological_Sub_Category
+
+What Radicalized them?  
+Columns:  
+Event_Influence, 
 
 Through which means were they radicalized?  
 Columns:    
-NE-Y Actively Recruited, Internet_Radicalization, Media_Radicalization, Social_Media,  Social_Media_Platform, Forign_Govt_Leader, US_Govt_Leader, Event_Influence, Radicalization_Sequence, Radicalization_Place, Prison_Radicalization, 
+NE-Y Actively Recruited, Internet_Radicalization, Media_Radicalization, Social_Media,  Social_Media_Platform, Forign_Govt_Leader, US_Govt_Leader,
 
-Family history? NE-Y
+# FINAL 
+Family Abuse History? NE-Y  
+Columns:  
+Abuse_Child, Abuse_Adult, Abuse_Type, Psychological, Alcohol_Drug
+
+Trauma before radicalization?
+Columns:
+Trauma
+
+Family and Relationships?  
+Columns:  
+Marital_Status, Children, Radical_Friend, Radical_Family, Radical_Signif_Other
 
 How many were violent/nonviolent? NE-Y  
 Columns:   
@@ -55,9 +74,13 @@ Result of actions?
 Columns:   
 Violent, Criminal_Severity, Current_Status
 
+Criminal History?  
+Columns:  
+Previous_Criminal_Activity, Previous_Criminal_Activity_Type, Previous_Criminal_Activity_Age, Gang, Gang_Age_Joined
+
 What were the profile traits of these individuals. ne-Y 
 Columns:  
- Broad_Ethnicity, Age, Marital_Status, Children, Gender, Religious_Background, Convert, Citizenship, Residency_Status, Nativity, Immigrant_Generation, Immigrant_Source, Education, Student, Employment_Status, Work_History, Military_Status_Arrest, Foreign_Military
+ Broad_Ethnicity, Age, Gender, Religious_Background, Convert, Citizenship, Residency_Status, Nativity, Immigrant_Generation, Immigrant_Source, Education, Student, Employment_Status, Work_History, Military_Status_Arrest, Foreign_Military, Angry_US, Group_Grievance
 
 Were they working alone?  NE-Y 
 Columns:   
