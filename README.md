@@ -67,3 +67,7 @@ With more time I would have liked to dive deeper into the personal traits of the
 - This data was collected from National Consortium for the Study of Terrorism and Response to Terrorism's [Profiles of Individual Radicalization in the United States (PIRUS) Dataset](https://www.start.umd.edu/data-tools/profiles-individual-radicalization-united-states-pirus) 
 - I did not create nor do I own any data from the PIRUS Dataset
 - In depth information about the dataset, certain terms, and criteria codes can be found [here](https://www.start.umd.edu/sites/default/files/files/research/PIRUSCodebook.pdf).
+
+
+
+

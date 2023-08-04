@@ -7,6 +7,8 @@ import bokeh
 import json
 from pandas import json_normalize
 
+
+
 #read csv or json into data frame fucntion
 def read_file(file_path):
     """
@@ -87,5 +89,36 @@ def value_change(df, df_column_name, new_vals, new_column_name):
 
     return None
 
+
+def bootstrap(x, num_bootstrap_samples=10000):
+    """Draw bootstrap resamples from the array x.
+
+    Parameters
+    ----------
+    x: np.array, shape (n, )
+      The data to draw the bootstrap samples from.
+    
+    num_bootstrap_samples: int
+      The number of bootstrap samples, each is built by sampling from x with replacement.
+    
+    Returns
+    -------
+    bootstrap_samples: a list of np.ndarray with length number_bootstrap_samples.
+      The bootstrap resamples from x.
+    """
+    
+    bootstrap_samples = []
+    for _ in range (num_bootstrap_samples):
+
+      bootstrap_samples.append(np.mean(np.random.choice(x.squeeze(), size=len(x), replace=True)))
+
+    return bootstrap_samples
+
 if __name__ == "__main__":
-    pass
+    fil_mil = read_file('../data/PIRUS_March2023/final_mil.xlsx')
+    fil_mil.drop(columns=['Unnamed: 0'], inplace=True)
+
+
+    print(fil_mil.shape)
+    fil_mil.head(5)
+
