@@ -6,7 +6,7 @@ The Oxford Advanced American Dictionary defines the word [extremist](https://www
 
  As our country becomes more divided, it is important that the military as an institution remains apolitical so that the public may continue to leave their trust and confidence in the men and women dedicated to serving in their nation's interests. All service members are discplined to incorporate this standard into their very being; however, there are still few who are susceptible to stray from the norm, and of that group there are a minority that have turned to extremism.
 
- The following analysis undertakes the challenge of identifying the commonalities between all recorded extremists with US military backgrounds from the years 2000 to 2021. It will identify the top shared extremist ideologies and subcategories, and which events radicalized them if at all. 
+ The following analysis undertakes the challenge of identifying whether or not extremists with a military background have a different likelihood than civillian extremsist of commiting a violent crime. Beyond that, we
 
  ## Purpose
  
