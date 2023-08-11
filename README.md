@@ -114,5 +114,8 @@ With more time I would liked to acquire more information on non-radical criminal
 - In depth information about the dataset, certain terms, and criteria codes can be found [here](https://www.start.umd.edu/sites/default/files/files/research/PIRUSCodebook.pdf).
 
 
+# Link to Slides
+Link to my slides can be found [here](https://docs.google.com/presentation/d/16VEkKQbR09uMVIOiykV2rI2yoAzPTAc2LIPfbl89OJU/edit#slide=id.p).
+
 
 
